@@ -10,11 +10,12 @@
 header{
     width: 100%;
     height: 140px;
-    background-color: #FFF2E1;
+    background-color: #fff2e1f1;
     position: fixed;
     top: 0;
     left: 0;
     box-shadow: 0 0 100px #F48C06;
+    z-index: 999;
 }
 nav{
     display: flex;

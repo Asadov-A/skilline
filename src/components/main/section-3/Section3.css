@@ -127,3 +127,7 @@ border: none;
     opacity: 30%;
     box-shadow: none;
 }
+.section-3__box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 30px;
+}
