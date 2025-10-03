@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+.section-1{
+    background-image: url('../../../assets/backgrounds/section-1-bg.png');
+    height: 1100px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-1__box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 1100px;
+    gap: 46px;
+}
+.section-1 h1{
+font-weight: 700;
+font-size: 54px;
+line-height: 80px;
+letter-spacing: 0%;
+color: #2F327D;
+}
+.section-1 h1 span{
+  color: #F48C06;
+}
+.section-1 p{
+color: #464646;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+letter-spacing: 0%;
+}
+.section-1__buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.section-1__button-1{
+ width: 200px;
+height: 70px;
+opacity: 1;
+border-radius: 80px;
+background-color: #F48C06;
+border: none;
+font-weight: 600;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+cursor: pointer;
+}
+.section-1__button-1:hover{
+  box-shadow: 0px 0px 100px #F48C06;
+  transform: scale(1.1);
+  opacity: 80%;
+}
+.section-1__button-1:active{
+  opacity: 30%;
+  transform: scale(0.9);
+  background-color: #2F327D;
+}
+.play-btn{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 10px;
+  border-radius: 25px;
+}
+.play-btn p{
+font-weight: 400;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #252641;
+}
+.play-btn img{
+  width: 24px;
+}
+.play-btn__img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #FFFFFF;
+  box-shadow: 2px 20px 60px 0px #3D9BB91A; 
+  border-radius: 50%;
+  padding-left: 5px;
+}
+.play-btn:hover{
+  transform: scale(1.1);
+  background-color: #f48d0667;
+  border-radius: 30px;
+}
+.play-btn:active{
+  transform: scale(0.9);
+  background: none;
+  opacity: 30%;
+}
