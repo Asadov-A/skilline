@@ -9,7 +9,7 @@ function Section7() {
         <div className="chap">
           <p className="chap1">
             Class Management
-            <span style="color: #2f327d">Tools for Educators</span>
+            <span style={{color:"#2f327d"}}>Tools for Educators</span>
           </p>
           <p className="chap2">
             Class provides tools to help run and manage the class such as Class
