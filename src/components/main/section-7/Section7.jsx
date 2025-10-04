@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import './Section7.css'
+import section7Img from '../../../assets/icons/rasm1.png'
 
 function Section7() {
 
   return (
     <>
-        <main className="main1">
+      <div className="container">
+          <main className="main1">
         <div className="chap">
           <p className="chap1">
-            Class Management
+            Class Management <br />
             <span style={{color:"#2f327d"}}>Tools for Educators</span>
           </p>
           <p className="chap2">
@@ -18,9 +20,10 @@ function Section7() {
           </p>
         </div>
         <div className="ong1">
-          <img src="/src/assets/icons/rasm1.png" alt="" />
+          <img src={section7Img} alt="" />
         </div>
       </main>
+      </div>
     </>
   )
 }

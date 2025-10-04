@@ -1,13 +1,16 @@
 import { useState } from 'react'
 import './Section8.css'
+import section8Img from '../../../assets/icons/rasm2.png'
+
 
 function Section8() {
 
   return (
     <>
-         <main className="main2">
+        <div className="container">
+           <main className="main2">
         <div className="chap3">
-          <img src="/src/assets/icons/rasm2.png" alt="" />
+          <img src={section8Img} alt="" />
         </div>
         <div className="ong3">
           <p className="ong4">
@@ -19,6 +22,7 @@ function Section8() {
           </p>
         </div>
       </main>
+        </div>
     </>
   )
 }
