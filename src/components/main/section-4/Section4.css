@@ -1,0 +1,36 @@
+.hello-salom{
+    width: 655px;
+    font-weight: 500;
+    font-size: 36px;
+    color: #2F327D;
+}
+
+.hello-salom span{
+    color: #F48C06  ;
+}
+
+.pop{
+    font-weight: 400;
+    font-size: 24px;
+    color: #696984;
+    width: 655px;
+}
+.ass{
+    color: #696984;
+}
+
+.hello-right img{
+    width: 705px;
+    height: 471px;
+    border-radius: 20px;
+ 
+}
+
+.hello-bobo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 67px;
+    margin-right: -200px;
+}
+

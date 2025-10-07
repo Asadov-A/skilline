@@ -1,0 +1,24 @@
+.hello-kotta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 208px;
+}
+
+.hello-right h1{
+color: #2F327D;
+font-weight: 600;
+font-size: 40px;
+width: 347px;
+}
+
+.po{
+    color: #696984;
+    font-weight: 400;
+    font-size: 22px;
+    width: 456px;   
+    font-family: poppins;
+}
+.hspan{
+    color: #F48C06;
+}   
