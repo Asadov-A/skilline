@@ -1,5 +1,5 @@
 import './Section5.css'
-import grle from '../../../assets/images/sect5-img.png'
+import grle from '../../../assets/images/sect6-img.png'
 
 function Section5() {
   return (
