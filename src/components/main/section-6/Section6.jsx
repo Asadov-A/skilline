@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './Section6.css'
-import resm from '../../../assets/images/group92.png'
+import resm from '../../../assets/images/sect6-img.png'
 
 function Section6() {
 
